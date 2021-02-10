@@ -1,12 +1,12 @@
 import React from 'react';
 import './Api.css';
 
-function Api() {
+function Api_date() {
   return (
-    <div className="App">
+    <div className="">
      
     </div>
   );
 }
 
-export default Api;
+export default Api_date;

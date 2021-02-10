@@ -1,27 +1,27 @@
 import React from 'react';
 import './Nav.css';
-import Api from './components/Api'
-import Game from './components/Game'
-import Calculator from './components/Calculator'
+import Api_date from './components/Api';
+import Game from './components/Game';
+import Calculator from './components/Calculator';
 
 
-const Nav = () => {
+const Nav_menu = () => {
   return (
     <nav className='nav'>
       <ol>
         <li>
           <a href="">
-            <Game />
+            <Game/>
           </a>
         </li>
         <li>
           <a href="">
-            <Calculator />
+            <Calculator/>
           </a>
         </li>
         <li>
           <a href="">
-            <Api /> 
+            <Api_date/> 
           </a>
         </li>
       </ol>
@@ -30,4 +30,4 @@ const Nav = () => {
 
 }
 
-export default Nav ;
+export default Nav_menu ;
