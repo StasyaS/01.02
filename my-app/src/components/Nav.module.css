@@ -1,0 +1,17 @@
+.nav {
+   text-align: left;
+   font-size: 22px;
+   width: 200px;
+   background-color: greenyellow;
+   color: honeydew;
+}
+
+.nav a {
+  color: honeydew;
+}
+
+.firstLi.active {
+  background-color: seagreen;
+}
+
+

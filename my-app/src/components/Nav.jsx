@@ -1,15 +1,18 @@
 import React from 'react';
-import './Nav.css';
+import s from './Nav.module.css';
+
 import Api_date from './components/Api';
 import Game from './components/Game';
 import Calculator from './components/Calculator';
 
+console.log(s);
+
 
 const Nav_menu = () => {
   return (
-    <nav className='nav'>
+    <nav className={s.nav}>
       <ol>
-        <li>
+        <li className={`${s.firstLi} ${s.active}`}>
           <a href="">
             <Game/>
           </a>

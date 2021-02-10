@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Game.css';
+import s from './Game.module.css';
 
 function Game() {
   return (
-    <div className="App">
+    <div className={s.block}>
      
     </div>
   );

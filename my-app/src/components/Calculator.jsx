@@ -1,10 +1,12 @@
 import React from 'react';
-import './Calculator.css';
+import s from './Calculator.module.css';
+
+
 
 
 function Calculator() {
   return (
-    <div className="App">
+    <div className={s.block}>
       
     </div>
   );

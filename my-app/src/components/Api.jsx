@@ -1,9 +1,9 @@
 import React from 'react';
-import './Api.css';
+import s from './Api.module.css';
 
 function Api_date() {
   return (
-    <div className="">
+    <div className={s.block}>
      
     </div>
   );
