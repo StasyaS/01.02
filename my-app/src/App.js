@@ -1,6 +1,6 @@
 
 import './App.css';
-import Nav_menu from './components/Nav';
+import Nav_menu from './components/Nav/Nav';
 
 
 

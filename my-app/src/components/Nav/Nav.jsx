@@ -1,9 +1,11 @@
 import React from 'react';
-import s from './Nav.module.css';
+import s from 'Nav.module.css';
 
-import Api_date from './components/Api';
-import Game from './components/Game';
-import Calculator from './components/Calculator';
+import Api_date from './components/Api/Api';
+import Game from './components/Game/Game';
+import Calculator from './components/Calc/Calculator';
+
+
 
 console.log(s);
 
